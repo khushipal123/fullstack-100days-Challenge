@@ -1,0 +1,151 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  /* background-color: #6c5886; */
+  color: #1c1b1b;
+  line-height: 1.6;
+  /* padding: 20px; */
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4f4461;
+  color: white;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  gap: 15px;
+}
+
+.Img-main img {
+  width: 300px;
+  height: 449px;
+  object-fit: contain;
+  border-radius: 20px;
+  border: solid  #4f4461 2px;
+  position: relative;
+  transition: transform 0.3s ease;
+
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color:#520681;
+  transform: scale(1.1);
+}
+
+.Img-main {
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.Img-main img:hover{
+    transform: scale(1.1);
+}
+.name{
+    font-size: 1.5rem;
+    transition: transform 0.4s ease;
+}
+.name:hover{
+ transform: scale(1.1);
+}
+main {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  gap: 40px;
+  margin-top: 30px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: #886fb1 2px solid;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 30px;
+}
+h1{
+    color: #520681;
+}
+
+h2 {
+    font-size: 3rem;
+  color:#4f4461;
+  margin-bottom: 10px;
+}
+
+.project-card {
+  background-color: #dbd3e5;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+#contact {
+  background-color: #f3e9f8;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#contact li {
+  margin: 8px 0;
+}
+
+#contact a {
+  color: #44334a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
