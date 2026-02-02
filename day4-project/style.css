@@ -98,8 +98,7 @@ i {
         left: 200px;
         text-align: left;
     }
-
-    #Menu li {
+    nav #Menu li {
         display: block;
         font-size: 1.5rem;
         margin: 10px;
